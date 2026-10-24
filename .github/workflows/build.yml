@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q Arima-Project.zip -d proj
+      - run: unzip -q *.zip -d proj
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
